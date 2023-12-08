@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.SugarSpot-container {
+    min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    background-image: url('https://i.postimg.cc/gcKM8D9k/background.png');
+    background-size: cover; /* Scale the image proportionally to cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+}
+
+code {
+    white-space: pre;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1 {
+    color: white;
+    display: inline-block;
+    font-family: Neonderthaw;
+    text-shadow: 0px 0px 25px #D230DD, 0px 0px 25px #D230DD, 0px 0px 25px #D230;
+    font-size: 130px;
+}
+
+.comming-text h2{
+    color: lightgray;
+}
+
+.contact-info h3{
+    color: lightgray;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
